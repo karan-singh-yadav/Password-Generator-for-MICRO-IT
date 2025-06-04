@@ -1,0 +1,32 @@
+{
+    "all": true,
+    "branches": 40,
+    "cache": false,
+    "check-coverage": true,
+    "clean": true,
+    "exclude": [
+        "coverage/*",
+        "dist/*",
+        "node_modules/*",
+        "docs/*"
+    ],
+    "extension": [".js"],
+    "functions": 40,
+    "include": [
+        "index.js",
+        "src/**/*.js"
+    ],
+    "lines": 40,
+    "reporter": [
+        "cobertura",
+        "html",
+        "html-spa",
+        "lcov",
+        "text",
+        "text-summary"
+    ],
+    "reports-dir": "./coverage",
+    "skip-full": false,
+    "sourceMap": true,
+    "statements": 40
+}
